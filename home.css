@@ -1,0 +1,165 @@
+body {
+    background-color: #111111;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #CCCCCC
+}
+
+img {
+    width: 240px;
+    height: 350px;
+    background-color: #4F4C50;
+    border-radius: 30px;
+}
+
+.nav {
+    color: #111111;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 20%;
+  }
+
+.profile-image {
+    flex-basis: 40%;
+    margin-left: 5%;
+}
+
+.title-super-text {
+    font-size: 3rem;
+}
+
+.title-name {
+    font-size: 4rem; 
+}
+
+.title-sub-text {
+    font-size: 1.5rem; 
+    line-height: 1.5;
+}
+
+.neon-purple {
+    color: #CC00FF;
+}
+
+.nav-item {
+    justify-content: center;
+}
+
+.nav-link {
+    color: #CCCCCC;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #CC00FF;
+}
+
+.about-me {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: inline;
+    margin-left: 5%;
+}
+
+.col-sm-6 {
+    width: 30%;
+    display: inline-block;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    background-color: #111111;
+    
+}
+
+.card-title {
+    font-size: 1.4rem;
+    margin-bottom: 10%;
+}
+
+.card-footer {
+    background-color: #4F4C50;
+    margin-top: 10%;
+}
+
+.btn-primary {
+    background-color: #4F4C50;
+    border: #4F4C50;
+}
+
+.btn-primary:hover {
+    background-color: #4F4C50;
+    outline: #4F4C50;
+    color: #111111;
+}
+
+.btn-primary:focus {
+    background-color: #4F4C50;
+    outline: #4F4C50;
+}
+
+.experience {
+
+}
+
+.projects {
+
+}
+
+.resume {
+
+}
+
+.resume-window {
+    width: 80%;
+    height: 1200px;
+    margin-left: 10%;
+    margin-bottom: 100px;
+}
+
+.contact-me {
+
+}
+
+.list-container {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 100px;
+}
+
+.list-group-item {
+    background-color: #111111;
+    color: #CCCCCC;
+    font-size: 1.2rem;
+}
+
+.list-group-item.active {
+    background-color: #4F4C50;
+    color: #CC00FF;
+    border-color: #4F4C50;
+}
+
+.contact-sub-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
