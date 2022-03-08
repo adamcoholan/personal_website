@@ -165,6 +165,11 @@ img {
     margin-top: 15%;
 }
 
+.carousel-wrapper {
+    width: 60%;
+    margin-left: 20%;
+}
+
 .resume {
     width: 80%;
     margin-left: 10%;
