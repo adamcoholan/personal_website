@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: #111111;
     font-family: 'Lato', sans-serif;
@@ -95,6 +99,8 @@ img {
 .card-title {
     font-size: 1.4rem;
     margin-bottom: 10%;
+    padding-bottom: 5%;
+    border-bottom: 3px solid #4F4C50;
 }
 
 .card-footer {
@@ -105,29 +111,42 @@ img {
 .btn-primary {
     background-color: #4F4C50;
     border: #4F4C50;
+    box-shadow: none;
 }
 
 .btn-primary:hover {
     background-color: #4F4C50;
     outline: #4F4C50;
     color: #111111;
+    box-shadow: none;
 }
 
 .btn-primary:focus {
     background-color: #4F4C50;
     outline: #4F4C50;
+    box-shadow: none;
+}
+
+.btn-primary:active {
+    box-shadow: none;
 }
 
 .experience {
-
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
 }
 
 .projects {
-
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
 }
 
 .resume {
-
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
 }
 
 .resume-window {
@@ -138,7 +157,9 @@ img {
 }
 
 .contact-me {
-
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
 }
 
 .list-container {
@@ -159,3 +180,7 @@ img {
     margin-top: 40px;
     margin-left: 25px;
 }
+
+/* .btn-check:focus+.btn-primary, .btn-primary:focus {
+    box-shadow: none;
+} */
