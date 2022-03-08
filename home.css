@@ -50,6 +50,14 @@ img {
     color: #CC00FF;
 }
 
+.gray {
+    color: #4F4C50;
+}
+
+::marker {
+    color: #CC00FF;
+}
+
 .nav-item {
     justify-content: center;
 }
@@ -93,14 +101,14 @@ img {
 
 .card-body {
     background-color: #111111;
-    
+    border: none;
 }
 
 .card-title {
     font-size: 1.4rem;
     margin-bottom: 10%;
     padding-bottom: 5%;
-    border-bottom: 3px solid #4F4C50;
+    border-bottom: 3px solid #CC00FF;
 }
 
 .card-footer {
@@ -129,6 +137,20 @@ img {
 
 .btn-primary:active {
     box-shadow: none;
+}
+
+.collapsed-content-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.collapsed-content-sub-title {
+    font-size: 1.5rem;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .experience {
@@ -167,6 +189,7 @@ img {
     margin-left: 20%;
     margin-bottom: 100px;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .icon-groups {
@@ -180,7 +203,3 @@ img {
     margin-top: 40px;
     margin-left: 25px;
 }
-
-/* .btn-check:focus+.btn-primary, .btn-primary:focus {
-    box-shadow: none;
-} */
