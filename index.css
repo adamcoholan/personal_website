@@ -26,6 +26,7 @@ img {
     margin-top: 10%;
     width: 80%;
     margin-left: 20%;
+    margin-bottom: 10%;
   }
 
 .profile-image {
@@ -78,6 +79,7 @@ img {
     width: 80%;
     margin-left: 10%;
     margin-top: 15%;
+    margin-bottom: 16%;
 }
 
 .section-header {
@@ -149,7 +151,7 @@ img {
 }
 
 .collapsed-content-sub-title {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     margin-bottom: 10px;
 }
 
@@ -175,7 +177,8 @@ img {
 .projects {
     width: 80%;
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: 19%;
+    margin-bottom: 15%;
 }
 
 .carousel-wrapper {
@@ -201,7 +204,7 @@ img {
 .resume {
     width: 80%;
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: 18%;
 }
 
 .resume-window {
